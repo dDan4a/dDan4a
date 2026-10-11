@@ -9,7 +9,8 @@ These days I'm also getting into Rust, and building tools on top of LLM agents.
 
 - **CONFident**: runtime configuration service. It stores config as a tree with per-environment values and symlinks.
   Each host runs a local LMDB replica, so services read config without network calls. Built in the spirit of OnlineConf.
-- **life-as-game**: gamified task tracker. It keeps everything in a single Markdown file and ships with a CLI, an Omarchy bar plugin, and an agent skill.
+- **[syschange](https://github.com/dDan4a/syschange)**: a history of changes to your Linux setup (config files, packages, services) with a reason for each one, diff and undo.
+  Ships as a Go CLI and an [Omarchy bar plugin](https://omarchyplugins.com/plugin.html?id=dan4a.syschange), and shows what your AI agents changed.
 
 #### 📦 Libraries
 

@@ -1,6 +1,6 @@
 <!-- Cards are rendered from assets/src/cards.html by assets/src/render.sh. -->
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png" /><img src="./assets/hero-light.png" width="772" alt="Hi, I'm Dan. Backend engineer. Go services for real-time traffic, and tools on top of LLM agents." /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png" /><img src="./assets/hero-light.png" width="772" alt="Hi, I'm Daniil. Backend engineer. Go services for real-time traffic, and tools on top of LLM agents." /></picture>
 </p>
 
 <p align="center">

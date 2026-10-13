@@ -1,29 +1,20 @@
-### Hi, I'm Dan 👋
+<!-- Cards are rendered from assets/src/cards.html by assets/src/render.sh. -->
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png" /><img src="./assets/hero-light.png" width="772" alt="Hi, I'm Dan. Backend engineer. Go services for real-time traffic, and tools on top of LLM agents." /></picture>
+</p>
 
-Backend engineer. I build Go services that handle real-time traffic: gRPC APIs, Postgres, and WebSocket fan-out with Centrifugo.
-These days I'm also getting into Rust, and building tools on top of LLM agents.
+<p align="center">
+  <a href="https://github.com/dDan4a/syschange"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/syschange-dark.png" /><img src="./assets/syschange-light.png" width="772" alt="syschange: a history of changes to your Linux setup with a reason for each one, diff and undo. Verified in the Omarchy plugin marketplace." /></picture></a>
+</p>
 
-**Stack:** Go · gRPC / grpc-gateway · PostgreSQL · Centrifugo · Kubernetes · GitLab CI · Rust (learning) · Python
+<p align="center">
+  <a href="https://github.com/dDan4a/agent-skills"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/agent-skills-dark.png" /><img src="./assets/agent-skills-light.png" width="257" alt="agent-skills: skills for AI coding agents, each with evals" /></picture></a><a href="https://github.com/dDan4a/tsukuyomi"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tsukuyomi-dark.png" /><img src="./assets/tsukuyomi-light.png" width="257" alt="tsukuyomi: atomic status transitions for any domain entity, Go library" /></picture></a><a href="https://github.com/rtk-ai/rtk/pulls?q=author%3AdDan4a"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/rtk-dark.png" /><img src="./assets/rtk-light.png" width="257" alt="rtk: Go tool filters (gotestsum, govulncheck), open source contributions" /></picture></a>
+</p>
 
-#### 🔨 Currently building
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.png" /><img src="./assets/stack-light.png" width="772" alt="Stack: Go, gRPC, PostgreSQL, Centrifugo, Kubernetes, GitLab CI, Rust, Python" /></picture>
+</p>
 
-- **[syschange](https://github.com/dDan4a/syschange)**: a history of changes to your Linux setup (config files, packages, services) with a reason for each one, diff and undo.
-  Ships as a Go CLI and an [Omarchy bar plugin](https://plugins.omarchy.org/plugin.html?id=dan4a.syschange) (verified in the Omarchy plugin marketplace),
-  and shows what your AI agents changed.
-- **[agent-skills](https://github.com/dDan4a/agent-skills)**: skills for AI coding agents, each with evals: writing Omarchy plugins,
-  and running parallel agent sessions in git worktrees. With the skill, agents pass 100% of the eval checks, against 55–64% without it.
-
-#### 📦 Libraries
-
-| Repo | What it does |
-|---|---|
-| [tsukuyomi](https://github.com/dDan4a/tsukuyomi) | Atomic status transitions for any domain entity: a transition graph with guards and hooks, plus compare-and-swap storage (Postgres included) |
-
-#### 🤝 Open source
-
-- **[rtk](https://github.com/rtk-ai/rtk)** (CLI proxy that compresses command output for LLM agents): Go tool filters,
-  [`gotestsum`](https://github.com/rtk-ai/rtk/pull/4495) and [`govulncheck`](https://github.com/rtk-ai/rtk/pull/4508) (in review)
-
-#### 📫 Contact
-
-danshtal@gmail.com
+<p align="center">
+  <a href="mailto:danshtal@gmail.com" title="Email"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/mail-dark.png" /><img src="./assets/mail-light.png" width="84" alt="Email: danshtal@gmail.com" /></picture></a>
+</p>

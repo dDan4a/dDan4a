@@ -4,11 +4,18 @@
 </p>
 
 <p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/group-omarchy-dark.png" /><img src="./assets/group-omarchy-light.png" width="772" alt="Linux and Omarchy" /></picture><br>
   <a href="https://github.com/dDan4a/syschange"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/syschange-dark.png" /><img src="./assets/syschange-light.png" width="772" alt="syschange: a history of changes to your Linux setup with a reason for each one, diff and undo. Verified in the Omarchy plugin marketplace." /></picture></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/dDan4a/agent-skills"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/agent-skills-dark.png" /><img src="./assets/agent-skills-light.png" width="257" alt="agent-skills: skills for AI coding agents, each with evals" /></picture></a><a href="https://github.com/dDan4a/tsukuyomi"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tsukuyomi-dark.png" /><img src="./assets/tsukuyomi-light.png" width="257" alt="tsukuyomi: atomic status transitions for any domain entity, Go library" /></picture></a><a href="https://github.com/rtk-ai/rtk/pulls?q=author%3AdDan4a"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/rtk-dark.png" /><img src="./assets/rtk-light.png" width="257" alt="rtk: Go tool filters (gotestsum, govulncheck), open source contributions" /></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/group-agents-dark.png" /><img src="./assets/group-agents-light.png" width="772" alt="AI agents" /></picture><br>
+  <a href="https://github.com/dDan4a/agent-skills"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/agent-skills-dark.png" /><img src="./assets/agent-skills-light.png" width="772" alt="agent-skills: skills for AI coding agents, each with evals. 100% of eval checks with the skill, 55-64% without." /></picture></a>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/group-go-dark.png" /><img src="./assets/group-go-light.png" width="772" alt="Go libraries" /></picture><br>
+  <a href="https://github.com/dDan4a/tsukuyomi"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tsukuyomi-dark.png" /><img src="./assets/tsukuyomi-light.png" width="772" alt="tsukuyomi: atomic status transitions for any domain entity, Go library with Postgres storage" /></picture></a>
 </p>
 
 <p align="center">

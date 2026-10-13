@@ -28,8 +28,13 @@
   .chip { font: 600 11px "JetBrains Mono", monospace; padding: 5px 9px; border: 1.5px solid var(--edge); color: var(--dim); }
   .chip.on { border-color: var(--accent); color: var(--accent); }
 
-  .info { width: 229px; height: 96px; padding: 16px 18px; display: flex; flex-direction: column; justify-content: center; gap: 4px; }
-  .info p { font-size: 14px; }
+  .info { width: 744px; height: 172px; padding: 22px 30px; display: flex; flex-direction: column; justify-content: center; gap: 8px; }
+  .info p { font-size: 15px; line-height: 1.45; }
+  .info .chips { margin-top: 4px; }
+
+  .group { width: 744px; height: 30px; display: flex; align-items: center; gap: 14px; }
+  .group .label { color: var(--accent); }
+  .group i { flex: 1; height: 1.5px; background: var(--edge); }
 
   #stack { width: 744px; height: 56px; padding: 0 22px; display: flex; align-items: center; gap: 18px; }
   #stack .mono { font-size: 13px; color: var(--dim); }
@@ -51,7 +56,7 @@
   <div class="card" id="syschange">
     <img src="syschange-panel.png">
     <div class="body">
-      <span class="label">Currently building</span>
+      <span class="label">Omarchy plugin · Go CLI</span>
       <h2>syschange</h2>
       <p>A history of changes to your Linux setup: config files, packages, services. A reason for each one, diff and undo.</p>
       <p>Your AI agents change your system — see what and why.</p>
@@ -61,14 +66,23 @@
 </template>
 
 <template id="t-agent-skills">
-  <div class="card info"><span class="label">Agent skills</span><h2>agent-skills</h2><p>100% of evals with the skill.</p></div>
+  <div class="card info">
+    <span class="label">Skills with evals</span><h2>agent-skills</h2>
+    <p>Skills for Claude Code, Codex, Gemini CLI and others: writing Omarchy plugins, running parallel agent sessions in git worktrees.</p>
+    <div class="chips"><span class="chip on">100% eval checks with the skill</span><span class="chip">55–64% without</span></div>
+  </div>
 </template>
 <template id="t-tsukuyomi">
-  <div class="card info"><span class="label">Go library</span><h2>tsukuyomi</h2><p>Atomic status transitions.</p></div>
+  <div class="card info">
+    <span class="label">Go library</span><h2>tsukuyomi</h2>
+    <p>Atomic status transitions for any domain entity: a transition graph with guards and hooks, plus compare-and-swap storage.</p>
+    <div class="chips"><span class="chip">Postgres storage included</span></div>
+  </div>
 </template>
-<template id="t-rtk">
-  <div class="card info"><span class="label">Open source</span><h2>rtk</h2><p>Go filters for LLM agents.</p></div>
-</template>
+
+<template id="t-group-omarchy"><div class="group"><span class="label">Linux &amp; Omarchy</span><i></i></div></template>
+<template id="t-group-agents"><div class="group"><span class="label">AI agents</span><i></i></div></template>
+<template id="t-group-go"><div class="group"><span class="label">Go libraries</span><i></i></div></template>
 
 <template id="t-stack">
   <div class="card" id="stack">
@@ -84,5 +98,6 @@
 <script>
   const q = new URLSearchParams(location.search);
   if (q.get("t") === "light") document.documentElement.className = "light";
+  if (q.get("c").startsWith("group-")) document.body.style.filter = "none";
   document.body.append(document.getElementById("t-" + (q.get("c") || "hero")).content.cloneNode(true));
 </script>

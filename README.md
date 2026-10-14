@@ -1,6 +1,10 @@
 <!-- Cards are rendered from assets/src/cards.html by assets/src/render.sh. -->
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png" /><img src="./assets/hero-light.png" width="772" alt="Hi, I'm Daniil. Backend engineer. Go services for real-time traffic, and tools on top of LLM agents." /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png" /><img src="./assets/hero-light.png" width="772" alt="Hi, I'm Daniil. Senior backend engineer, 6+ years of high-load Go. Also building tools on top of LLM agents. Open to remote roles." /></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/focus-dark.png" /><img src="./assets/focus-light.png" width="772" alt="Focus: Go at scale (Perl monolith to Go microservices, ~1K to ~85K RPS); distributed systems with gRPC, Kafka, ClickHouse, PostgreSQL; production reliability (load tests in CI, automated rollouts, p99 down ~20%); LLM agent tooling." /></picture>
 </p>
 
 <p align="center">
@@ -19,9 +23,9 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.png" /><img src="./assets/stack-light.png" width="772" alt="Stack: Go, gRPC, PostgreSQL, Centrifugo, Kubernetes, GitLab CI, Rust, Python" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.png" /><img src="./assets/stack-light.png" width="772" alt="Stack: Go, gRPC, Kafka, PostgreSQL, ClickHouse, Centrifugo, Kubernetes, GitLab CI, Rust, Python" /></picture>
 </p>
 
 <p align="center">
-  <a href="mailto:danshtal@gmail.com" title="Email"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/mail-dark.png" /><img src="./assets/mail-light.png" width="84" alt="Email: danshtal@gmail.com" /></picture></a>
+  <a href="mailto:danshtal@gmail.com" title="Email"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/mail-dark.png" /><img src="./assets/mail-light.png" width="84" alt="Email: danshtal@gmail.com" /></picture></a><a href="https://t.me/dDan4a" title="Telegram"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/telegram-dark.png" /><img src="./assets/telegram-light.png" width="84" alt="Telegram: @dDan4a" /></picture></a><a href="https://www.linkedin.com/in/ddan4a" title="LinkedIn"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/linkedin-dark.png" /><img src="./assets/linkedin-light.png" width="84" alt="LinkedIn: ddan4a" /></picture></a>
 </p>

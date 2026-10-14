@@ -14,7 +14,7 @@
 
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/group-agents-dark.png" /><img src="./assets/group-agents-light.png" width="772" alt="AI agents" /></picture><br>
-  <a href="https://github.com/dDan4a/agent-skills"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/agent-skills-dark.png" /><img src="./assets/agent-skills-light.png" width="772" alt="agent-skills: skills for AI coding agents, each with evals. 100% of eval checks with the skill, 55-64% without." /></picture></a>
+  <a href="https://github.com/dDan4a/agent-skills"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/agent-skills-dark.png" /><img src="./assets/agent-skills-light.png" width="772" alt="agent-skills: skills for AI coding agents (Omarchy plugins, parallel sessions in git worktrees, Herdr tabs, GitHub READMEs), each with evals. 100% of eval checks with the skill, 43-86% without." /></picture></a>
 </p>
 
 <p align="center">
